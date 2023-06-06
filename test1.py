@@ -30,7 +30,7 @@ df = pd.DataFrame(df, columns = ['Text', 'Class'])
 
 import cohere
 from cohere.classify import Example
-co = cohere.Client('CDI4Aq8FXrXzdylGy7Nn9PdFkJnpVtyn9VbuBgiq')
+co = cohere.Client(API_KEY)
 
 examples = []
 
